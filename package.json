@@ -43,10 +43,11 @@
 		"build": "next build",
 		"clean": "yarn lint && yarn prettify",
 		"deploy": "next build && sls deploy",
+		"dev": "next",
 		"eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check",
 		"lint": "eslint server.js --fix",
 		"prettify": "prettier --config ./.prettierrc.json --write src/",
 		"staged": "lint-staged",
-		"start": "next start"
+		"start": "next"
 	}
 }
