@@ -47,7 +47,6 @@
 		"lint": "eslint server.js --fix",
 		"prettify": "prettier --config ./.prettierrc.json --write src/",
 		"staged": "lint-staged",
-		"start": "next build && sls offline start",
-		"watch": "sls offline start --dontPrintOutput"
+		"start": "next start"
 	}
 }
