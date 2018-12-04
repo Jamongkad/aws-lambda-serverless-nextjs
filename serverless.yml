@@ -2,7 +2,7 @@ service: aws-lambda-serverless-nextjs
 provider:
   memorySize: 512
   name: aws
-  profile: default
+  profile: william
   region: us-east-1
   runtime: nodejs8.10
 functions:
